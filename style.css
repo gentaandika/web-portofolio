@@ -69,17 +69,21 @@ body {
 #hamburger-menu {
   display: none;
 }
+/* media queries */
+
+/*laptop*/
 @media (max-width: 1366px) {
   html {
     font-size: 75%;
   }
 }
-@media (max-width: 758px) {
+/*tablet*/
+@media (max-width: 768px) {
   html {
     font-size: 62.5%;
   }
 }
-
+/*mobile phone*/
 @media (max-width: 450px) {
   html {
     font-size: 55%;
