@@ -28,7 +28,7 @@ body {
   top: 0;
   left: 0;
   right: 0;
-  z-index: 9999;
+  z-index: 999;
 }
 .navbar .navbar-logo {
   font-size: 2rem;
@@ -81,6 +81,22 @@ body {
 @media (max-width: 768px) {
   html {
     font-size: 62.5%;
+  }
+
+  #hamburger-menu {
+    display: inline-block;
+  }
+  .navbar.navbar-nav {
+    position: absolute;
+    top: 100%;
+    right: -100%;
+    background-color: #fdfdfd;
+    width: 30rem;
+    height: 100vh;
+  }
+
+  .navbar .navbar-nav.active {
+    right: 0;
   }
 }
 /*mobile phone*/
